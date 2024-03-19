@@ -1,1 +1,5 @@
-# agritech-farm-tracking-system
+The project contains an Agricultural Supply Chain Dapp With Micro-Finance functionality, coded using Truffle and Solidity. The backend blockchain is a private Ethereum network setup using Geth(go-ethereum) and the interactions are made possible by Web3 javascript library.
+
+An Ethereum DApp that provides a transparent and tamper-proof digital marketplace for farm products. AgroChain enables farmers to record the potential crops, as well as the expected yield, on the blockchain. Consumers can determine farmer credibility by analysing previous cultivation and supply records in the blockchain. Ultimately, the project will serve as a rating tool to bring trust and transparency in the agricultural market.
+
+Eventually, the Agrochain will build a decentralized agro-market where the farmers can easily raise fund for cultivation along with the customers in his hand for buying his produce. On the other hand the customers can ensure quality products at lesser price with an early investment on the crops. Both the customers and farmers could yield profit and build a loyal environment for future cooperation. The best farmer will get the maximum profit on the produce and the best investor (consumer) can ensure good quality food for his home.
