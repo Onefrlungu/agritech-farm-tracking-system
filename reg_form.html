@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .bg-img {
+            background-image: url("Farm.jpeg");
+            min-height: 100vh;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            position: relative;
+            max-width: 600px;
+            padding: 32px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: green;
+            -webkit-text-stroke: 1px black;
+            margin-bottom: 10px;
+        }
+        b {
+            color: green;
+            font-size: 17;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid green;
+            box-sizing: border-box;
+        }
+        .button {
+            background-color: green;
+            color: white;
+            padding: 14px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body class="bg-img">
+    <form class="container">
+        <div class="container">
+            
+            <center><h1> FARMER'S REGISTRATION FORM</h1></center>
+            <hr>
+            <label>Firstname</label>
+            <input type="text" name="Firstname" placeholder="Firstname" size="15" required/>
+            <label>Middlename</label>
+            <input type="text" name="Middlename" placeholder="Middlename" size="15" required/>
+            <label>Lastname</label>
+            <input type="text" name="Lastname" placeholder="Lastname" size="15" required/>
+
+            <div>
+                <center><label><h2>TYPE OF FARMING</h2></label></center>
+                <select>
+                    <option value="Farming Type">Type of Farming</option>
+                    <option value="Cattle Raring">Cattle Raring</option>
+                    <option value="Poultry Farming">Poultry Farming</option>
+                    <option value="Pig Raring">Pig Raring</option>
+                    <option value="Cash Crop Farming">Cash Crop Farming</option>
+                    <option value="Fish Farming">Fish Farming</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Gender</label><br>
+                <input type="radio" value="Male" name="gender" checked> Male
+                <input type="radio" value="Female" name="gender" checked> Female
+                <input type="radio" value="Other" name="gender" checked> Other
+            </div>
+
+            <div>
+                <label>Phone Number</label>
+                <input type="text" name="country code" placeholder="Country code" value="+260" size="2" required/>
+                <input type="text" name="phone" placeholder="Phone No." size="9" required/>
+                Current Address
+                <textarea cols="70" rows="10" placeholder="Current Address" value="address"></textarea>
+                <label for="email"><br>Email Address</br></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <label for="password"><br>Password</br></label>
+                <input type="text" placeholder="Enter Password" name="password" required>
+                <label for="password"><br>Type Password</br></label>
+                <input type="text" placeholder="Enter Password" name="password" required>
+
+            </div>
+        
+        </div>
+
+    </form>
+</body>
+
+</html>
